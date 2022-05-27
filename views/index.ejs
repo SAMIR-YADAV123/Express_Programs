@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to my Website <%= user.name %></h1>
+    <h1>I am from sathyabama university</h1>
+    <h1>Email : <%= user.email %></h1>
+    <ul>
+        <%  user.skills.forEach((item)=>{ %>
+            <li><%= item %></li>
+            <%   }) %>
+        
+    </ul>
+</body>
+</html>

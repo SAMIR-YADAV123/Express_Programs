@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "colors": "^1.4.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.3",
+    "multer": "^1.4.4",
+    "mysql": "^2.18.1"
+  },
+  "name": "express_basic",
+  "version": "1.0.0",
+  "description": "this is awesome",
+  "main": "pract.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "samir yadav",
+  "license": "ISC",
+  "devDependencies": {}
+}
